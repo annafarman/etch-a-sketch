@@ -1,0 +1,59 @@
+* {
+    color: white;
+    background-color: rgb(61, 61, 61);
+    font-family: 'Patrick Hand SC', cursive;
+    text-align: center;
+}
+
+#input-box {
+    margin: 25px auto;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input {
+    width: 50px;
+    border: 1px solid rgb(153, 152, 152);
+    border-radius: 5px;
+    padding: 3px 8px;
+}
+
+button {
+    border: 3px solid rgb(153, 152, 152);
+    border-radius: 5px;
+    padding: 3px 8px;
+}
+
+span#output {
+    margin-right: 10px;
+}
+
+button#resetBtn {
+    margin: 25px auto;
+}
+
+div#grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    margin: 0 auto;
+}
+
+.grid-item {
+    border: 1px solid rgb(177, 174, 174,50%);
+    box-sizing: border-box;
+    background-color: rgb(70, 73, 75);
+    border-radius: 5px;
+    /* margin: 5px; */
+}
+
+.grid-item:hover {
+    cursor: pointer;
+}
+
+div#note {
+    margin: 15px auto;
+    padding: 0;
+}
