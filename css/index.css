@@ -42,11 +42,9 @@ div#grid-container {
 }
 
 .grid-item {
-    border: 1px solid rgb(177, 174, 174,50%);
+    border: 1px solid rgb(177, 174, 174,30%);
     box-sizing: border-box;
-    background-color: rgb(70, 73, 75);
-    border-radius: 5px;
-    /* margin: 5px; */
+    border-radius: 3px;
 }
 
 .grid-item:hover {
